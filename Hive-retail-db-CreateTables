@@ -1,3 +1,4 @@
+# Creates and loads data into the tables
 
 CREATE DATABASE IF NOT EXISTS retail_db;
 
