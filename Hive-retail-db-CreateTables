@@ -1,4 +1,4 @@
-# Creates and loads data into the tables
+# Creates and loads data into the tables, and-outputs order-revenue for "COMPLETE" order_status orders
 
 CREATE DATABASE IF NOT EXISTS retail_db;
 
