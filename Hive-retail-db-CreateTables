@@ -59,3 +59,5 @@ ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
 LOCATION '${INPUT}/retail_db/products;
 
 
+
+INSERT OVERWRITE DIRECTORY '${OUTPUT}/orders_results/' SELECT * FROM orders WHERE order_status = "COMPLETE";
