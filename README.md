@@ -8,7 +8,7 @@ Project Steps:
 
   1.2 Create key-pair in EC2 dashboard to use in EMR cluster instances in next steps.
 
-  1.3 Create an S3 Buckets and name it your choice example and then seperate folders:
+  1.3 Create an S3 Buckets and name it your choice example and then separate folders:
       1.3.1 Create Folder --> Code : To save Hive scripts.
       1.3.2 Create Folder --> Code : To save Input data files
       1.3.3 Create Folder --> Code : To save Output results
